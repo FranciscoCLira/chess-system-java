@@ -91,3 +91,20 @@ git push -u origin main ou master       ===> subir para o github o que foi commi
                                    ===> TOKEN: ghp_.......................w3dGkol   ==> verificar no github
 
 
+
+==============================
+
+Exemplo: 
+Voltar na versão anterior do git 
+
+$ git reset --hard HEAD~1
+
+==============================
+
+
+Para executar o projeto no terminal do gitbash, abrir o gitbash na pasta bin do caminho abaixo:  
+
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/ws-eclipse-jee-2022-06R/chess-system/bin (master)
+$ java application/Program                ==> para executar o projeto de xadrez 
+
+
