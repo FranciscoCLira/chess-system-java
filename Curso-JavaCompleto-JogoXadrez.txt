@@ -1,0 +1,83 @@
+
+Curso -Java Completo -Jogo Xadrez
+
+JOGO DE XADREX 
+
+
+https://github.com/FranciscoCLira/chess-system-java
+
+https://github.com/FranciscoCLira/chess-system-java.git  ==> criado no github 
+
+git config --list
+git config --global user.name "Seu nome"
+git config --global user.email "Seu email de cadastro do Github"
+
+
+--------
+
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/ws-eclipse-jee-2022-06R/chess-system
+$ git init
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/ws-eclipse-jee-2022-06R/chess-system (main)
+$ git branch -m master
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/ws-eclipse-jee-2022-06R/chess-system (master)    ==> alterado para master 
+$ git remote add origin "https://github.com/FranciscoCLira/chess-system-java.git"   ==> *** associar ao repositorio local 
+ 
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/ws-eclipse-jee-2022-06R/chess-system (master)
+$ git pull origin master                ==> atualizar o projeto local com o repositorio remoto do github. 
+
+
+Salvar o projeto local no github 
+================================
+
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/ws-eclipse-jee-2022-06R/chess-system (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        Curso-JavaCompleto-JogoXadrez.txt
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/ws-eclipse-jee-2022-06R/chess-system (master)
+$ git config --list                              ==> confirmar seu usuario e Email 
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+core.usebuiltinfsmonitor=true
+pull.rebase=false
+init.defaultbranch=main
+
+user.name=Francisco Casemiro Lira                 ===>  confirmar se seu usuario e Email 
+user.email=franciscoclira@hotmail.com             ===:  confirmar se seu usuario e Email 
+
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/FranciscoCLira/chess-system-java.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/ws-eclipse-jee-2022-06R/chess-system (master)
+$
+
+*** Se nao tiver:  ===>  confirmar se seu usuario e Email 
+* Fazer
+git config --list
+git config --global user.name "Seu nome"
+git config --global user.email "Seu email de cadastro do Github" 
+
+
+Verificar no Windows em "Gerenciar suas Credenciais" se tiver alguma credencial do github, apagar antes de fazer o dois comandos acima. 
