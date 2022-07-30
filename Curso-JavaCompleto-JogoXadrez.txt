@@ -3,7 +3,6 @@ Curso -Java Completo -Jogo Xadrez
 
 JOGO DE XADREX 
 
-
 https://github.com/FranciscoCLira/chess-system-java
 
 https://github.com/FranciscoCLira/chess-system-java.git  ==> criado no github 
@@ -81,3 +80,14 @@ git config --global user.email "Seu email de cadastro do Github"
 
 
 Verificar no Windows em "Gerenciar suas Credenciais" se tiver alguma credencial do github, apagar antes de fazer o dois comandos acima. 
+
+
+Fazer o commit: 
+git status
+git add .                          ===> pega todos os arquivos "untracked" (nao rastreados)e joga na area de stage  
+git commit -m "Very bad solution"  ===> efetivar o commit das atualizacoes do add . (na area de stage) 
+git push -u origin main ou master       ===> subir para o github o que foi commitado 
+                                   ===> entrado com usuario franciscoclira e senha 
+                                   ===> TOKEN: ghp_.......................w3dGkol   ==> verificar no github
+
+
