@@ -48,7 +48,12 @@ public class UI {
 		}
 	}
 
+	
 	public static void printBoard(ChessPiece[][] pieces) {
+		// TESTE  - 
+		System.out.println(" UI.java versao 22h34 ");
+		System.out.println("======================");
+		
 		for (int i = 0; i < pieces.length; i++) {
 			System.out.print((8 - i) + " ");
 			for (int j = 0; j < pieces.length; j++) {
